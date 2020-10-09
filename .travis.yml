@@ -18,6 +18,3 @@ matrix:
   allow_failures:
     - rvm: ruby-head
   fast_finish: true
-  include:
-    - rvm: 2.4.9
-      script: bundle exec rubocop
